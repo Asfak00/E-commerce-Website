@@ -1,0 +1,736 @@
+@media (max-width: 900px) {
+  /* default styling responsive */
+  .section-p1 {
+    padding: 40px 40px;
+  }
+  /* navigation var responsive */
+  #navigation .links {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0px;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s ease;
+  }
+
+  #navigation .links li {
+    margin-bottom: 25px;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  #cart {
+    display: none;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #222;
+    font-size: 24px;
+  }
+
+  /* hero section responsive */
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+  }
+
+  /* feature section responsive */
+  #future {
+    justify-content: center;
+  }
+
+  #future .fu-box {
+    margin: 15px 15px;
+  }
+
+  /* featured product section responsive */
+  #product1 .pro-container {
+    justify-content: center;
+  }
+
+  #product1 .pro {
+    margin: 20px;
+  }
+
+  /* banner section responsive */
+  #banner {
+    height: 20vh;
+  }
+
+  /* sm-banner section responsive */
+  #sm-banner .banner-box {
+    width: 100%;
+    height: 30vh;
+  }
+
+  #sm-banner .banner-box2 {
+    margin-top: 1.5rem;
+  }
+
+  #banner3 {
+    padding: 0 40px;
+  }
+
+  #banner3 .banner-box {
+    width: 28%;
+  }
+
+  #cart-page {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  #hero h4 {
+    font-size: 20px;
+  }
+
+  #hero h2 {
+    font-size: 32px;
+  }
+  #hero h1 {
+    font-size: 45px;
+  }
+
+  #hero p {
+    font-size: 15px;
+  }
+
+  #hero button {
+    padding: 15px 74px;
+    font-size: 11px;
+  }
+
+  #newsletter {
+    text-align: center;
+    flex-direction: column;
+    padding: 13px 80px;
+  }
+
+  #banner {
+    height: 32vh;
+  }
+
+  #newsletter .form {
+    width: 100%;
+  }
+
+  #sm-banner .banner-box {
+    height: 40vh;
+  }
+
+  #banner3 .banner-box {
+    width: 31%;
+    height: 45vh;
+  }
+
+  #blog {
+    padding: 100px 80px 0px 80px;
+  }
+
+  #blog .blog-box .blog-img img {
+    height: 200px;
+  }
+
+  #about-us .details h2 {
+    font-size: 2.3rem;
+  }
+
+  #about-us .details p {
+    font-size: 0.7rem;
+    margin: 0 0 10px 0;
+  }
+
+  #about-us .details a {
+    font-size: 0.7rem;
+  }
+
+  #about-us .details marquee {
+    font-size: 0.9rem;
+  }
+
+  /* Contact page */
+  #contact-form {
+    padding: 20px;
+    margin: 30px;
+  }
+
+  /* cart section */
+  #order-section .coupon {
+    width: 55%;
+    margin-bottom: 30px;
+  }
+
+  #subtotal {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  #about-us {
+    flex-direction: column;
+  }
+
+  #about-us img {
+    width: 90%;
+  }
+
+  #about-us .details {
+    width: 90%;
+    padding: 0;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 580px) {
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+  }
+  #hero h4 {
+    font-size: 15px;
+  }
+
+  #hero h2 {
+    font-size: 28px;
+  }
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero p {
+    font-size: 14px;
+  }
+
+  #hero button {
+    padding: 15px 74px;
+    font-size: 11px;
+  }
+
+  #future .fu-box {
+    width: 42%;
+  }
+
+  #product1 .pro {
+    width: 100%;
+  }
+
+  #banner {
+    height: 48vh;
+  }
+
+  #banner3 .banner-box {
+    width: 31%;
+  }
+
+  #blog {
+    padding: 80px 40px 0px 40px;
+  }
+
+  #shop-header.about-header p {
+    font-size: 0.8rem;
+  }
+
+  #about-us {
+    margin-top: 2.5rem;
+  }
+
+  #app h1 {
+    font-size: 2.7rem;
+  }
+
+  #app .video {
+    width: 90%;
+  }
+
+  /* contact page */
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .contact-details {
+    width: 100%;
+  }
+
+  #contact .map {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #contact-form {
+    flex-direction: column;
+    padding: 0px;
+    margin: 40px;
+  }
+
+  #contact-form form {
+    width: 100%;
+  }
+
+  .people {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  /* coupon and order section */
+
+  #order-section {
+    flex-direction: column;
+  }
+
+  #order-section .coupon {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  #order-section .coupon input {
+    width: 75%;
+    padding: 10px 20px;
+  }
+
+  #order-section .coupon button {
+    padding: 10px 25px;
+  }
+
+  #subtotal {
+    width: 100%;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px;
+  }
+
+  #navigation {
+    padding: 10px 20px;
+  }
+
+  #hero h2 {
+    font-size: 32px;
+  }
+  #hero h1 {
+    font-size: 38px;
+  }
+
+  #future {
+    justify-content: space-evenly;
+  }
+
+  #future .fu-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+
+  #product1 h1 {
+    font-size: 2.4rem;
+  }
+
+  #banner {
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 35vh;
+  }
+
+  #banner3 {
+    padding: 0 20px;
+  }
+
+  #banner3 .banner-box {
+    width: 100%;
+    height: 35vh;
+  }
+
+  #newsletter {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer .copyright {
+    text-align: start;
+  }
+
+  footer .copyright p {
+    text-align: center;
+  }
+
+  #cart-page {
+    flex-direction: column;
+  }
+
+  .cart-image {
+    width: 100%;
+  }
+
+  .img-details {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #blog .blog-box {
+    flex-direction: column;
+  }
+
+  #blog .blog-box .blog-img {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #blog .blog-box .blog-details {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  #blog .blog-box .blog-img img {
+    height: 250px;
+  }
+
+  #shop-header.about-header p {
+    font-size: 0.8rem;
+  }
+
+  #about-us {
+    margin-top: 2.2rem;
+  }
+
+  #about-us .details h2 {
+    font-size: 2rem;
+  }
+
+  #app h1 {
+    font-size: 2.2rem;
+  }
+
+  #app .video {
+    width: 90%;
+  }
+
+  /* coupon and order section */
+
+  #order-section .coupon input {
+    width: 70%;
+    padding: 10px 20px;
+  }
+
+  #order-section .coupon button {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  /* navigation var responsive */
+  #navigation .links {
+    width: 200px;
+  }
+  .section-p1 {
+    padding: 20px;
+  }
+
+  #hero {
+    padding: 0 20px;
+    background-position: 60%;
+  }
+
+  #hero button {
+    background-size: 150px;
+  }
+
+  #hero h4 {
+    font-size: 12px;
+  }
+
+  #hero h2 {
+    font-size: 23px;
+  }
+  #hero h1 {
+    font-size: 28px;
+  }
+
+  #hero p {
+    font-size: 12px;
+  }
+
+  #hero button {
+    padding: 8px 39px;
+    font-size: 11px;
+  }
+
+  #future {
+    justify-content: space-between;
+  }
+
+  #future .fu-box {
+    width: 47%;
+  }
+
+  #product1 h1 {
+    font-size: 1.8rem;
+  }
+
+  #product1 p {
+    font-size: 0.8rem;
+  }
+
+  #banner h2 {
+    font-size: 20px;
+    padding: 5px 0;
+  }
+
+  #banner button {
+    padding: 10px 20px;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 35vh;
+  }
+
+  #sm-banner h2 {
+    font-size: 20px;
+  }
+
+  #sm-banner h4 {
+    font-size: 16px;
+  }
+
+  #sm-banner span {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+
+  #sm-banner button {
+    padding: 9px 14px;
+    transition: 0.2s ease;
+  }
+
+  #banner3 .banner-box h2 {
+    font-size: 18px;
+  }
+
+  #banner3 .banner-box h3 {
+    font-size: 12px;
+  }
+
+  #newsletter {
+    flex-direction: column;
+    padding: 40px 15px;
+  }
+
+  #newsletter input {
+    height: 2.2rem;
+  }
+
+  #newsletter button {
+    padding: 8px 20px;
+  }
+
+  footer .copyright p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #cart-page {
+    flex-direction: column;
+  }
+
+  .cart-image {
+    width: 100%;
+  }
+
+  .img-details {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .img-details h2 {
+    font-size: 30px;
+  }
+
+  #select {
+    padding: 7px;
+  }
+
+  #add-cart {
+    padding: 10px 15px;
+  }
+
+  .img-details p {
+    line-height: 18px;
+    font-size: 12px;
+  }
+
+  #blog {
+    padding: 70px 20px 0px 20px;
+  }
+
+  #shop-header.about-header p {
+    font-size: 0.7rem;
+  }
+
+  #about-us {
+    margin-top: 2rem;
+  }
+
+  #app h1 {
+    font-size: 2rem;
+  }
+
+  /* contact page */
+
+  #contact .map {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  #contact-form {
+    margin: 20px;
+  }
+
+  #contact .contact-details h2,
+  #contact-form form h2 {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 15px 0;
+  }
+
+  /* coupon and order section */
+
+  #order-section .coupon input {
+    width: 65%;
+    padding: 10px 20px;
+  }
+
+  #order-section .coupon button {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 300px) {
+  /* navigation var responsive */
+  #navigation .links {
+    width: 150px;
+  }
+  #navigation img {
+    width: 101px;
+  }
+
+  .mobile i {
+    font-size: 17px;
+  }
+
+  #future .fu-box {
+    padding: 7px 8px;
+  }
+
+  #future .fu-box h6 {
+    padding: 9px 5px 6px 5px;
+    font-size: 10px;
+  }
+
+  #newsletter h4 {
+    font-size: 18px;
+  }
+
+  #newsletter input {
+    padding: 3px;
+  }
+
+  #newsletter button {
+    padding: 8px 10px;
+  }
+
+  ::placeholder {
+    font-size: 0.6rem;
+  }
+
+  #blog {
+    padding: 60px 10px 0px 10px;
+  }
+
+  #shop-header.blog-header h2 {
+    font-size: 2rem;
+  }
+
+  #shop-header.blog-header p {
+    font-size: 0.8rem;
+  }
+
+  #shop-header.about-header h2 {
+    font-size: 2rem;
+  }
+
+  #shop-header.about-header p {
+    font-size: 0.5rem;
+  }
+
+  #about-us {
+    margin-top: 1rem;
+  }
+
+  #about-us .details marquee {
+    font-size: 0.6rem;
+  }
+
+  #app .video {
+    margin: 0rem auto;
+  }
+
+  #about-us .details {
+    margin-top: 1rem;
+  }
+
+  #about-us .details h2 {
+    font-size: 1.2rem;
+  }
+
+  #app h1 {
+    font-size: 1rem;
+  }
+
+  /* coupon and order section */
+
+  #order-section .coupon {
+    margin-top: 40px;
+  }
+
+  #order-section .coupon input {
+    width: 65%;
+    padding: 8px 20px;
+  }
+
+  #order-section .coupon button,
+  #subtotal button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  #subtotal {
+    width: 100%;
+  }
+}

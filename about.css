@@ -1,0 +1,56 @@
+#shop-header.about-header {
+  background-image: url(./images/about/banner.png);
+}
+
+#about-us {
+  display: flex;
+  align-items: center;
+}
+
+#about-us img {
+  width: 50%;
+  box-shadow: 3px 2px 9px rgb(0, 0, 0, 0.3);
+}
+
+#about-us .details {
+  padding-left: 40px;
+}
+
+#about-us .details p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+#about-us .details a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(98, 98, 98);
+  transition: 0.3s ease;
+}
+
+#about-us .details a:hover {
+  color: #088178;
+}
+
+#app h1 {
+  text-align: center;
+}
+
+#app a {
+  text-decoration: none;
+  color: #088178;
+}
+
+#app a:hover {
+  text-decoration: underline;
+}
+
+#app .video {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+#app .video video {
+  width: 100%;
+  border-radius: 20px;
+}
